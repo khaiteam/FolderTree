@@ -3,3 +3,5 @@
 ################################################################################
 
 /Source/FolderTree/obj
+/.vs
+/Source/.vs/FolderTree/v15/Server/sqlite3
