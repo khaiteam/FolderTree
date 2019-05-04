@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace FolderTree
 {
-    class Program
+    public class ArgumentHandler
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace FolderTree
 {
-    class Program
+    interface ISave
     {
-        static void Main(string[] args)
-        {
-        }
+        void Serialize(Folder folder);
     }
 }

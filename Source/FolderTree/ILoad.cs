@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace FolderTree
 {
-    class Program
+    interface ILoad
     {
-        static void Main(string[] args)
-        {
-        }
+        Folder Deserialize();
     }
 }
