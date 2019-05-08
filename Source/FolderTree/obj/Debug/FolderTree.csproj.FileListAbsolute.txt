@@ -1,0 +1,7 @@
+E:\3 course\ИТ\FT\Source\FolderTree\bin\Debug\FolderTree.exe.config
+E:\3 course\ИТ\FT\Source\FolderTree\bin\Debug\FolderTree.exe
+E:\3 course\ИТ\FT\Source\FolderTree\bin\Debug\FolderTree.pdb
+E:\3 course\ИТ\FT\Source\FolderTree\obj\Debug\FolderTree.csprojAssemblyReference.cache
+E:\3 course\ИТ\FT\Source\FolderTree\obj\Debug\FolderTree.csproj.CoreCompileInputs.cache
+E:\3 course\ИТ\FT\Source\FolderTree\obj\Debug\FolderTree.exe
+E:\3 course\ИТ\FT\Source\FolderTree\obj\Debug\FolderTree.pdb
