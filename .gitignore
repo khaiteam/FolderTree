@@ -8,3 +8,6 @@
 /.vs/FT/v15
 /.vs
 /Source/.vs/FolderTree/DesignTimeBuild
+/Source/packages/NUnit.3.11.0
+/Source/FolderTree.Tests/obj/Debug
+/Source/FolderTree.Tests/bin/Debug
