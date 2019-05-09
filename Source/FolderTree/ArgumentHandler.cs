@@ -19,7 +19,6 @@ namespace FolderTree
         {
             _args = args;
         }
-
         public void ParseArgs()
         {
             foreach (string arg in _args)
