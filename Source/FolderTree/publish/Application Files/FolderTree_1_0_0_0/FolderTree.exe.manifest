@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FolderTree.exe" version="1.0.0.0" publicKeyToken="29e420ccb0ad67fb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FolderTree" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FolderTree.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FolderTree.exe" size="11744">
+      <assemblyIdentity name="FolderTree" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9XVf/zCp4Ovd7NeMR1ghbHKvMYLU1/mtIHlLUL+KC6A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FolderTree.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-LT03APR\Настя" issuerKeyHash="0fad5f6dd51dfae5ec7d59f35f521589ec5cf782" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>H45GuNLHhVUSTSFCq440eguJf7tUqFVtHvuLkiUpVI8=</DigestValue></Reference></SignedInfo><SignatureValue>i0IKhRXNgx9+2TI9rwcWhRbk41pmrdtr2jTsFR0qYS2Tk8rCoIP69yQxK4UWT4Tvh/GnAtWQxJexm7E9XCvYP1YLas18V3D95Z42ex2SSc+VP2USWVEqDPebxyb8Orc9jzwlBEc3iqONAIK3u8Wcch8maW5O/7D68HsZecF4pn4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5EZB8n/ZMyeuqEF9XhEsAklySvHlkEFKh0HfOmEhKjTVWoMfEzNBlKPmFtdJEurCr+2WaX/+rTup4Tjkylyh5XQ8duHZj7TSTdoIO/IZi84T2kn3c3/BObvKnBPvSF9DYAt4xBVNC+lAjVTRialCTTI90N87NamzsdyB2DBaWHU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8f542925928bfb1e6d55a854bb7f890b7a348eab42214d125585c7d2b8468e1f" Description="" Url=""><as:assemblyIdentity name="FolderTree.exe" version="1.0.0.0" publicKeyToken="29e420ccb0ad67fb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LT03APR\Настя</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7Ln0HzC69qksdA4Pv8xikhCUblXojhA++YeEh1hzG+w=</DigestValue></Reference></SignedInfo><SignatureValue>1wnfVhjWe4MPc0s4g6bqEXdfwBDbjHkDG55XIBN27TnEBV/yCshxnt+Hq4uy0QkDzdtE603FsbtoUW1RCw1uS6+zf2SJ76I+mSTHwClEXWzflE8XmGWVBGpPtp3ErxO/vFnJyG1Nmt9WsRyyFiKhPtxYEFbLUuZQh2brUkcjFdo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5EZB8n/ZMyeuqEF9XhEsAklySvHlkEFKh0HfOmEhKjTVWoMfEzNBlKPmFtdJEurCr+2WaX/+rTup4Tjkylyh5XQ8duHZj7TSTdoIO/IZi84T2kn3c3/BObvKnBPvSF9DYAt4xBVNC+lAjVTRialCTTI90N87NamzsdyB2DBaWHU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYeTldY4eVKlBDt5EpKDZojANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwAVAAwADMAQQBQAFIAXAQdBDAEQQRCBE8wHhcNMTkwNTA5MjAwODI5WhcNMjAwNTA5MDIwODI5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwAVAAwADMAQQBQAFIAXAQdBDAEQQRCBE8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAORGQfJ/2TMnrqhBfV4RLAJJckrx5ZBBSodB3zphISo01VqDHxMzQZSj5hbXSRLqwq/tlml//q07qeE45MpcoeV0PHbh2Y+00k3aCDvyGYvOE9pJ93N/wTm7ypwT70hfQ2ALeMQVTQvpQI1U0YmpQk0yPdDfOzWps7HcgdgwWlh1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAiJ8KR0bI9/JKlxAiVbDC3oPU915Griz1vhEEoc05sPaRisBjhMcCC8c7pKtHELNs8xkcpcPpn0amVRYw7DmQfkDs8K4rg40LdlATxKYIo7OH+Nacu9+1oHm2rtm4A597tbmgqATJ6xq/9r1WnTzy9Laf5FMVyBIqqe5i0th4Y7Q=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
