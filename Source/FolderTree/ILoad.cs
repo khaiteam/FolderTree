@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FolderTree
 {
-    interface ILoad
+    public interface ILoad
     {
         Folder Deserialize();
     }
