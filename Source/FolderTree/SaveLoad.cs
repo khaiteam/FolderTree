@@ -32,7 +32,7 @@ namespace FolderTree
             }
         }
 
-        public Folder Deserialize()
+        public Folder Deserialize() //исправлен баг
         {
             switch (Type)
             {
