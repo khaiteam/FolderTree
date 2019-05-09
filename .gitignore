@@ -2,7 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Source/.vs/FolderTree/v15
+/Source/.vs/
+/Source/FolderTree/bin
+/Source/FolderTree/obj
 /.vs/FT/v15
 /.vs
 /Source/.vs/FolderTree/DesignTimeBuild
